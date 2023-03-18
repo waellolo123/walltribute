@@ -1,0 +1,76 @@
+.payment {
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.payment-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../../assets/back2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    border-radius: 15px;
+}
+.payment-title {
+    margin: 20px 0;
+}
+.payment-titleSm {
+    margin: 20px 0;
+}
+.payment-wallet {
+    color: pink;
+    font-size: 1.2em;
+    
+}
+.payment-titleEmail {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-decoration: underline;
+    color: pink;
+}
+.payment-images {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+.payment-img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.payment-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.payment-spans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.payment-span {
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 2px;
+    color: gray;
+    font-weight: bold;
+}
+@media screen and (max-width: 613px) {
+    .payment-wallet {
+        font-size: .8em;
+    }
+}

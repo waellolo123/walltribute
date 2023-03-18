@@ -1,0 +1,47 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+
+}
+.social-icon {
+    margin:  10px;
+    font-size: 1.8em;
+    border: 1px solid white;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow:  5px 5px 8px #969696,
+             -5px -5px 10px #ffffff;
+    transition: 1s ease; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 50%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    /* color:transparent;
+    -webkit-background-clip:text; */
+    z-index: 100;
+}
+.social-icon:hover {
+    box-shadow:  none;
+}
+@media screen and (max-width: 511px) {
+   .social {
+     top: -5px;
+     right: 0;
+     flex-direction: row;
+   }
+   .social-icon {
+    font-size: 1.2em;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   }
+}
