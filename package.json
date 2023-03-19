@@ -1,8 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "http://server:3400/",
+  "homepage": ".",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
     "@testing-library/jest-dom": "^5.16.5",

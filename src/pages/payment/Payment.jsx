@@ -4,7 +4,6 @@ import axios from "axios";
 import "./payment.css";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import { useLocation } from "react-router";
 import { useNavigate } from "react-router-dom";
 import { create } from "../../utils/data-provider";
 import { useDispatch } from "react-redux";

@@ -6,7 +6,7 @@ import axios from "axios";
 import { getCookies } from "./cookies";
 
 // Error handling with axios interceptors
-const axiosInstance = axios.create();
+const axiosInstance = axios.create({baseURL: process.env.REACT_APP_API_URL});
 
 axiosInstance.interceptors.response.use(
   (response) => {
